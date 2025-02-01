@@ -1,0 +1,214 @@
+(footprint "wobelisk"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "wobelisk from Ciat-Lonbarde Osmond PCB library")
+	(tags "wobelisk from Ciat-Lonbarde Osmond PCB library")
+	(property "Reference" "REF**"
+		(at 3.81 3.81 0)
+		(layer "F.Fab")
+		(uuid "b02b8c93-4c57-4aba-9af9-5bf52042b858")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "wobelisk"
+		(at 3.81 -3.175 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a9b4a618-928d-4fab-bc87-21d7bf486ecc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16e49f5d-aff3-438e-b1be-4cbe83bd0244")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a9a230d-9acd-44fb-a2fd-6b5d514489ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a9cc132-3a6c-461b-bf10-2308d03df709")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.905 -1.905)
+		(end -1.905 1.905)
+		(stroke
+			(width 0.762)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "357ad31b-f1ce-495c-849f-13b4c9b9b120")
+	)
+	(fp_line
+		(start -1.905 1.905)
+		(end -1.27 1.905)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "06bdb651-5629-4857-8c90-fa63838863e8")
+	)
+	(fp_line
+		(start -1.27 -1.905)
+		(end -1.905 -1.905)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "88e369a2-cd24-4066-9d06-90c2a3f128c7")
+	)
+	(fp_line
+		(start -1.27 -1.905)
+		(end -1.27 -1.27)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "58b24a3f-8179-4a14-a87d-6cec307297e3")
+	)
+	(fp_line
+		(start -1.27 -1.27)
+		(end -1.27 1.905)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "090fed56-db09-4553-8930-d4c6681ea474")
+	)
+	(fp_line
+		(start -1.27 -1.27)
+		(end 3.81 -1.27)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c96faedd-eaa6-40cf-8950-1f82cf683d0f")
+	)
+	(fp_line
+		(start -1.27 1.905)
+		(end 3.88964 1.7446)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1b06a575-3d28-49d3-8013-b56355529bf2")
+	)
+	(fp_line
+		(start -1.2358 1.33996)
+		(end 3.75476 1.20508)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "62c500ed-e268-48ba-bd66-19087c8412f7")
+	)
+	(fp_line
+		(start 3.69856 -1.796)
+		(end -1.27 -1.905)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2cfffe6f-32e1-47c1-b920-853ba34bdfdf")
+	)
+	(fp_line
+		(start 3.81096 -1.77352)
+		(end 8.50928 -1.49252)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "15c619cd-574e-42ef-ac0d-430b7eb10c07")
+	)
+	(fp_line
+		(start 3.88964 1.7446)
+		(end 8.47556 1.54228)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "269c4739-24b7-4e8a-ad20-ac7a07d6e2b4")
+	)
+	(fp_line
+		(start 8.47556 1.54228)
+		(end 10.23428 0.09232)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bc6a109b-6b73-49e5-a9db-40f94ca0ab94")
+	)
+	(fp_line
+		(start 8.50928 -1.49252)
+		(end 10.26272 0.02488)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "eb7dffdc-512d-4570-9891-aec47823e97f")
+	)
+	(pad "1" thru_hole circle
+		(at 7.62 0)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "918b2c88-fac1-4370-b3fb-8a237f17f586")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9b0bcbee-4ea5-4559-b0e2-ec841dd5f121")
+	)
+)

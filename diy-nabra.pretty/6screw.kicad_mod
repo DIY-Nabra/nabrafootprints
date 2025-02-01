@@ -1,0 +1,76 @@
+(footprint "6screw"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "6screw from Ciat-Lonbarde Osmond PCB library")
+	(tags "6screw from Ciat-Lonbarde Osmond PCB library")
+	(property "Reference" "REF**"
+		(at 0 5.08 0)
+		(layer "F.Fab")
+		(uuid "98fa8bab-7f95-4227-966d-dd46d4693d41")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "6screw"
+		(at 0 -5.08 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8900abf0-2306-4dd0-8208-1a8e6ee60d8c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e792bbe6-3581-4f86-836e-7df08e72b5ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd5b9f79-f0a7-4962-b56b-fe5dd0dc471b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21648860-6bd5-41dc-b949-f8a40f250735")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 7.1374 7.1374)
+		(drill 3.175)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5e45c0e7-0e22-4f75-80cf-1e08a4332185")
+	)
+)
