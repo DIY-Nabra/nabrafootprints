@@ -42,8 +42,8 @@ the paper circuits.
 How to use
 ----------
 
-* Clone the repo from GitHub: ```git clone```
-    * or download the zipfile from:
+* Clone the repo from GitHub: ```git clone https://github.com/DIY-Nabra/NabraFootprints.git```
+    * or download the zipfile from: [```https://github.com/DIY-Nabra/NabraFootprints/archive/refs/tags/1.0.0.zip```](https://github.com/DIY-Nabra/NabraFootprints/archive/refs/tags/1.0.0.zip)
 * In the KiCAD PCB editor (`pcbnew`) go to `Preferences->Manage Footprint Libraries...`
     * Click the folder icon beneath the list of footprint libraries to add a new library from a directory
     * Navigate to the `diy-nabra.pretty` directory in the `NabraFootprints` directory that you cloned or expanded the zipfile into.
