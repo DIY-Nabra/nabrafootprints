@@ -1,7 +1,7 @@
 (footprint "dip8"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "dip8 from Ciat-Lonbarde Osmond PCB library")
 	(tags "dip8 from Ciat-Lonbarde Osmond PCB library")
@@ -20,18 +20,6 @@
 		(at 3.81 3.81 0)
 		(layer "F.SilkS")
 		(uuid "d0225f05-adbd-4861-bd39-b65d8b605f30")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7bf1db66-8ee7-4f58-97d0-44d0658d3088")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -134,7 +122,7 @@
 		(layer "F.SilkS")
 		(uuid "8299aeb3-7815-476e-9888-4393ba71b4a2")
 	)
-	(pad "1" thru_hole circle
+	(pad "1" thru_hole rect
 		(at 0 7.62)
 		(size 1.524 1.524)
 		(drill 0.7112)
@@ -198,4 +186,5 @@
 		(remove_unused_layers no)
 		(uuid "0db308a5-695f-4ca8-b4ae-174e9a682520")
 	)
+	(embedded_fonts no)
 )

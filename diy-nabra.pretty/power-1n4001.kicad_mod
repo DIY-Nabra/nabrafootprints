@@ -1,7 +1,7 @@
 (footprint "power-1n4001"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "power-1n4001 from Ciat-Lonbarde Osmond PCB library")
 	(tags "power-1n4001 from Ciat-Lonbarde Osmond PCB library")
@@ -21,18 +21,6 @@
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "0e180c23-f9a2-4991-8455-b88658196e56")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c7ae3ec8-a3b8-4b7b-b181-ae808f23620f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -155,7 +143,7 @@
 		(layer "F.SilkS")
 		(uuid "8a100cee-ba03-43bd-a4b5-d90dc1212cb9")
 	)
-	(pad "1" thru_hole circle
+	(pad "1" thru_hole rect
 		(at 0 0)
 		(size 2.032 2.032)
 		(drill 0.9652)
@@ -171,4 +159,5 @@
 		(remove_unused_layers no)
 		(uuid "33290aab-6cdd-4f65-bd3f-fc66824e636b")
 	)
+	(embedded_fonts no)
 )

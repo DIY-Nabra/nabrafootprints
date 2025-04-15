@@ -1,7 +1,7 @@
 (footprint "ledstar~4~"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "ledstar~4~ from Ciat-Lonbarde Osmond PCB library")
 	(tags "ledstar~4~ from Ciat-Lonbarde Osmond PCB library")
@@ -21,18 +21,6 @@
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "109f5e76-11f8-4ffe-af61-e733c9c84d74")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7789fc3f-81f9-40cd-8793-e6079c27cab4")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -595,7 +583,7 @@
 		(layer "F.SilkS")
 		(uuid "58cd907a-c905-49ed-a354-003ac0c99fe1")
 	)
-	(pad "1" thru_hole circle
+	(pad "1" thru_hole rect
 		(at -8.89 0)
 		(size 1.524 1.524)
 		(drill 0.8128)
@@ -611,4 +599,5 @@
 		(remove_unused_layers no)
 		(uuid "132be71f-b593-48b8-aa52-03fa62c22715")
 	)
+	(embedded_fonts no)
 )

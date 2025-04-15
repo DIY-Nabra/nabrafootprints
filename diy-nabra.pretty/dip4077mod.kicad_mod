@@ -1,7 +1,7 @@
 (footprint "dip4077mod"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "dip4077mod from Ciat-Lonbarde Osmond PCB library")
 	(tags "dip4077mod from Ciat-Lonbarde Osmond PCB library")
@@ -20,18 +20,6 @@
 		(at 7.62 3.81 0)
 		(layer "F.SilkS")
 		(uuid "14ad3a13-3e5e-4da4-a1b6-3d2f8507ae1f")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e5c6fe80-5175-4646-a6d2-3f9f421438a5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -164,7 +152,7 @@
 		(layer "F.SilkS")
 		(uuid "64c2233f-397b-41ac-a050-fa6539ce177b")
 	)
-	(pad "1" thru_hole circle
+	(pad "1" thru_hole rect
 		(at 0 7.62)
 		(size 1.524 1.524)
 		(drill 0.7112)
@@ -276,4 +264,5 @@
 		(remove_unused_layers no)
 		(uuid "c2b15ba3-fbe0-4cde-a67f-90a3b77bfd57")
 	)
+	(embedded_fonts no)
 )

@@ -1,7 +1,7 @@
 (footprint "chaihairy"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "chaihairy from Ciat-Lonbarde Osmond PCB library")
 	(tags "chaihairy from Ciat-Lonbarde Osmond PCB library")
@@ -21,18 +21,6 @@
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "49a7d737-6d18-422d-8150-b6041aa54a6d")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b747c792-286f-46bc-ab64-e9e7a10b55a9")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1405,10 +1393,10 @@
 		(layer "F.SilkS")
 		(uuid "dbbf095a-1502-4908-8333-c852cef2dba7")
 	)
-	(pad "1" thru_hole circle
+	(pad "1" thru_hole rect
 		(at 7.62 0)
 		(size 1.524 1.524)
-		(drill 0.7112)
+		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "a4e7a628-2384-465b-87b3-527b6c78449f")
@@ -1416,9 +1404,10 @@
 	(pad "2" thru_hole circle
 		(at 0 0)
 		(size 1.524 1.524)
-		(drill 0.7112)
+		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "60a75cf3-13c1-428e-a0dd-633995281d15")
 	)
+	(embedded_fonts no)
 )

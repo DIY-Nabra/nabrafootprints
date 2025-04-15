@@ -1,7 +1,7 @@
 (footprint "cel3"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "cel3 from Ciat-Lonbarde Osmond PCB library")
 	(tags "cel3 from Ciat-Lonbarde Osmond PCB library")
@@ -21,18 +21,6 @@
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "46b1a638-9bd5-48d5-a95c-152d5cd22e1a")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "dcd5a181-f31d-49a1-bd45-4cc8407aabd9")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2005,10 +1993,10 @@
 		(layer "F.SilkS")
 		(uuid "ce69e001-7655-48e2-8a88-b542b5009e16")
 	)
-	(pad "1" thru_hole circle
+	(pad "1" thru_hole rect
 		(at 7.62 0)
 		(size 2.032 2.032)
-		(drill 0.9652)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "e72b6661-e1f9-42d6-b230-8049e4fa80b5")
@@ -2016,9 +2004,10 @@
 	(pad "2" thru_hole circle
 		(at 0 0)
 		(size 2.032 2.032)
-		(drill 0.9652)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "9348f67b-1496-411f-a0ce-35c8cbb586b9")
 	)
+	(embedded_fonts no)
 )

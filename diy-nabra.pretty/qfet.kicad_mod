@@ -1,7 +1,7 @@
 (footprint "qfet"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "qfet from Ciat-Lonbarde Osmond PCB library")
 	(tags "qfet from Ciat-Lonbarde Osmond PCB library")
@@ -21,18 +21,6 @@
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "4a4c58a6-3921-4911-b499-0151e86b52ee")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "086b2cb0-f950-4d7f-b9df-3580fedda1d8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -225,7 +213,7 @@
 		(layer "F.SilkS")
 		(uuid "4fb74ad8-8d11-4315-b048-53d60272eb0e")
 	)
-	(pad "1" thru_hole circle
+	(pad "1" thru_hole rect
 		(at 2.54 0)
 		(size 1.524 1.524)
 		(drill 0.7112)
@@ -249,4 +237,5 @@
 		(remove_unused_layers no)
 		(uuid "311a79ba-c42c-4e70-a44b-7793ec044503")
 	)
+	(embedded_fonts no)
 )

@@ -1,7 +1,7 @@
 (footprint "chairy"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "chairy from Ciat-Lonbarde Osmond PCB library")
 	(tags "chairy from Ciat-Lonbarde Osmond PCB library")
@@ -21,18 +21,6 @@
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "29c4fc1e-838a-4611-9dc2-dae18a3fec83")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9f58d695-61bc-4e19-8870-3b7cfb55f756")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1015,10 +1003,10 @@
 		(layer "F.SilkS")
 		(uuid "10e8b3d7-26f5-43c1-abd3-0782bc5d1791")
 	)
-	(pad "1" thru_hole circle
+	(pad "1" thru_hole rect
 		(at 7.62 0)
 		(size 1.524 1.524)
-		(drill 0.7112)
+		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "a85808d5-50ad-4ebe-a00c-2730aec5f343")
@@ -1026,9 +1014,10 @@
 	(pad "2" thru_hole circle
 		(at 0 0)
 		(size 1.524 1.524)
-		(drill 0.7112)
+		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "900a95a1-3106-4a9b-a788-3459bb2972c8")
 	)
+	(embedded_fonts no)
 )

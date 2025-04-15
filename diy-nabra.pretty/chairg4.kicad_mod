@@ -1,7 +1,7 @@
 (footprint "chairg4"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "chairg4 from Ciat-Lonbarde Osmond PCB library")
 	(tags "chairg4 from Ciat-Lonbarde Osmond PCB library")
@@ -21,18 +21,6 @@
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "4a2d5139-8e72-413b-91b6-1f10eb2c57bc")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4a489855-1f4a-4901-9ddf-a492b7c3472d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1405,10 +1393,10 @@
 		(layer "F.SilkS")
 		(uuid "4cbdf138-58e2-4397-98f9-f27cb0d8225e")
 	)
-	(pad "1" thru_hole circle
+	(pad "1" thru_hole rect
 		(at 10.16 0)
 		(size 1.524 1.524)
-		(drill 0.7112)
+		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "61c82260-0954-4ea3-9eb3-30184e0e99b0")
@@ -1416,9 +1404,10 @@
 	(pad "2" thru_hole circle
 		(at 0 0)
 		(size 1.524 1.524)
-		(drill 0.7112)
+		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "11f112d3-4653-4d6b-bdd5-ab77c557abb9")
 	)
+	(embedded_fonts no)
 )

@@ -1,7 +1,7 @@
 (footprint "qpnp"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "qpnp from Ciat-Lonbarde Osmond PCB library")
 	(tags "qpnp from Ciat-Lonbarde Osmond PCB library")
@@ -21,18 +21,6 @@
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "29b7f356-e1df-4762-a0b4-58560b8c1e6c")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8d06bf08-0526-40f2-ade3-b6858cf804ac")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -195,7 +183,7 @@
 		(layer "F.SilkS")
 		(uuid "ea860e03-e7e2-43e4-98da-e76574d01c4b")
 	)
-	(pad "1" thru_hole circle
+	(pad "1" thru_hole rect
 		(at 2.54 0)
 		(size 1.524 1.524)
 		(drill 0.7112)
@@ -219,4 +207,5 @@
 		(remove_unused_layers no)
 		(uuid "06fa71b2-6508-46d8-b7cc-6a050eded33a")
 	)
+	(embedded_fonts no)
 )

@@ -1,7 +1,7 @@
 (footprint "dip14"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "dip14 from Ciat-Lonbarde Osmond PCB library")
 	(tags "dip14 from Ciat-Lonbarde Osmond PCB library")
@@ -20,18 +20,6 @@
 		(at 7.62 3.81 0)
 		(layer "F.SilkS")
 		(uuid "4a819b06-5616-4d68-8405-e08d2f335f46")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d6b86cbf-f15c-4a6c-b071-f962ecc85301")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -144,7 +132,7 @@
 		(layer "F.SilkS")
 		(uuid "0c015409-9acf-47b1-8dfa-e199b0fdd577")
 	)
-	(pad "1" thru_hole circle
+	(pad "1" thru_hole rect
 		(at 0 7.62)
 		(size 1.524 1.524)
 		(drill 0.7112)
@@ -256,4 +244,5 @@
 		(remove_unused_layers no)
 		(uuid "1858c353-b3b1-4782-80ae-3ca1c8fb3da0")
 	)
+	(embedded_fonts no)
 )

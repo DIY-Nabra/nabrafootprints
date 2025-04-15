@@ -1,7 +1,7 @@
 (footprint "doz3"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "doz3 from Ciat-Lonbarde Osmond PCB library")
 	(tags "doz3 from Ciat-Lonbarde Osmond PCB library")
@@ -21,18 +21,6 @@
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "e750ba53-04dd-4cbe-89cf-4201fb044ded")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a8006747-b298-415e-9023-a3c222c1f85a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -165,7 +153,7 @@
 		(layer "F.SilkS")
 		(uuid "fb5167b0-db5a-43ab-888c-f42079051556")
 	)
-	(pad "1" thru_hole circle
+	(pad "1" thru_hole rect
 		(at 0 0)
 		(size 1.524 1.524)
 		(drill 0.7112)
@@ -181,4 +169,5 @@
 		(remove_unused_layers no)
 		(uuid "dd04f889-267f-4573-822c-f376022988d2")
 	)
+	(embedded_fonts no)
 )

@@ -1,7 +1,7 @@
 (footprint "led"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "led from Ciat-Lonbarde Osmond PCB library")
 	(tags "led from Ciat-Lonbarde Osmond PCB library")
@@ -21,18 +21,6 @@
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "06214ca7-5458-4cd0-b02e-95ea1978d7cd")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0449da62-2af5-441e-bf2c-e22ed7c4a42b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -435,7 +423,7 @@
 		(layer "F.SilkS")
 		(uuid "b5223060-4eb6-46bf-a747-65302c466583")
 	)
-	(pad "1" thru_hole circle
+	(pad "1" thru_hole rect
 		(at 0 0)
 		(size 1.524 1.524)
 		(drill 0.8128)
@@ -451,4 +439,5 @@
 		(remove_unused_layers no)
 		(uuid "72c1261a-d783-42c3-b733-dc16cb9e1b4a")
 	)
+	(embedded_fonts no)
 )
